@@ -1,0 +1,12 @@
+git config --global user.name "Jemit Dave"
+git config --global user.email jemitdave@gmail.com
+git config --global core.editor "code --wait"
+git config --global core.autocrlf true
+git config --global --add safe.directory /d/Coding
+git config --global --add safe.directory /C/Users/Jemit Dave/Desktop/Coding
+git config --global --unset safe.directory D
+git init
+git add ML_practice
+git add .
+git status
+rm -rf .git
