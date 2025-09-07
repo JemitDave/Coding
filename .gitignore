@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.o
+*.exe
+
+# Ignore logs and temperoroy files
+logs/
+*.log
+*.tmp
+
+# Ignore node_modules (for Node.js projjects)
+node_modules/
+
